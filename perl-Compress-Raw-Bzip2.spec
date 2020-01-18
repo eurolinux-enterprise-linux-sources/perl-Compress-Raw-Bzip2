@@ -1,7 +1,7 @@
 Name:           perl-Compress-Raw-Bzip2
 Summary:        Low-level interface to bzip2 compression library
 Version:        2.061
-Release:        1%{?dist}
+Release:        3%{?dist}
 License:        GPL+ or Artistic
 Group:          Development/Libraries
 URL:            http://search.cpan.org/dist/Compress-Raw-Bzip2/
@@ -57,6 +57,12 @@ make test
 %{_mandir}/man3/Compress::Raw::Bzip2.3pm*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 2.061-3
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.061-2
+- Mass rebuild 2013-12-27
+
 * Mon May 27 2013 Paul Howarth <paul@city-fan.org> - 2.061-1
 - Update to 2.061
   - Silence compiler warning by making 2nd parameter to DispStream a const char*
